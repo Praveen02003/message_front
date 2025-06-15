@@ -1,0 +1,24 @@
+.uone>h2{
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 580px;
+}
+td,th{
+    border-color: inherit !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+th{
+    font-size: 35px;
+}
+table{
+    margin-left: 170px;
+    margin-top: 35px;
+}

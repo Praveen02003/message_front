@@ -1,0 +1,27 @@
+.msix{
+    background-image: url('../Assets/message.jpg');
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 190px;
+    padding-left: 50px;
+}
+.mone{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    margin-left: 450px;
+}
+.mthree>img{
+    height: 220px;
+    width: 180px;
+    border-radius: 10px;
+}
+.mfive>h5{
+    font-weight: bold;
+    font-style: italic;
+}
+input{
+    border-radius: 10px;
+}
