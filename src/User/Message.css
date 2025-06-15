@@ -25,3 +25,12 @@
 input{
     border-radius: 10px;
 }
+.mseven{
+    margin-left: 220px;
+    font-size: 15px;
+    font-style: italic;
+}
+.mfive>button{
+    font-size: 15px;
+    font-style: italic;
+}

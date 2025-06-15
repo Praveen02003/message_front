@@ -4,10 +4,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import emailimage from '../Assets/email_image.jpg'
 import '../User/Message.css'
 import axios from '../Axios/Axios.js';
+import { useNavigate } from 'react-router-dom';
 export const Message = () => {
     const[from,sfrom]=useState("praveen.aeropilot@gmail.com")
     const[to,sto]=useState("")
     const[text,stext]=useState("")
+    const navigate=useNavigate()
     const sendmail=async()=>{
         const userdata={
             from:from,
@@ -35,6 +37,7 @@ export const Message = () => {
                     <img src={emailimage} className="img-fluid rounded-start" alt="..."/>
                 </div>
                 <div className="col-md-8 mfour">
+                    <button className='mseven' onClick={()=>{navigate('/userdatas')}}>Data</button>
                     <div className="card-body mfive">
                         <h5 className="card-title">Email</h5>
                         <p className="card-text">From : {from}</p>
